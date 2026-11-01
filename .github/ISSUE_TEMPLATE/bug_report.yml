@@ -10,7 +10,7 @@ body:
 
         **Before you start:** please [search existing issues](https://github.com/10pow6/public-slapget-issues-log/issues?q=is%3Aissue) to avoid duplicates.
 
-        ⚠️ **Security issue?** Stop. Do not file it here. That includes TP6 payment or wallet problems, getting land or resources without paying, and seeing hidden deposits. See our [Security Policy](https://github.com/10pow6/public-slapget-issues-log/blob/main/SECURITY.md) and disclose privately via Discord.
+        ⚠️ **Security issue?** Stop. Do not file it here. That includes TP6 payment or wallet problems, getting land or resources without paying, and seeing hidden deposits. See our [Security Policy](https://github.com/10pow6/public-slapget-issues-log/blob/main/SECURITY.md) and [report it privately](https://github.com/10pow6/public-slapget-issues-log/security/advisories/new).
   - type: checkboxes
     id: preflight
     attributes:

@@ -21,7 +21,7 @@ Before opening one, please [**search existing issues**](https://github.com/10pow
 
 ## 🔒 Security issues
 
-**Do not** open a public issue for security vulnerabilities. See [**SECURITY.md**](SECURITY.md) for how to disclose privately.
+**Do not** open a public issue for security vulnerabilities. [**Report it privately →**](https://github.com/10pow6/public-slapget-issues-log/security/advisories/new) (see [**SECURITY.md**](SECURITY.md) for what to include and what's out of scope).
 
 > ⚠️ Reports involving **TP6 payments**, the wallet connection, claiming the same parcels twice, getting resources or land without paying, or seeing hidden deposits or other players' private data are **security‑sensitive**. Report those privately, not here.
 
