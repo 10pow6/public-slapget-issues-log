@@ -1,0 +1,70 @@
+name: ✨ Feature Request
+description: Suggest a new mechanic, resource, region, or improvement for Slapget.
+title: "[Feature]: "
+labels: ["enhancement", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the idea! ✨
+
+        **Before you start:** please [search existing issues](https://github.com/10pow6/public-slapget-issues-log/issues?q=is%3Aissue). If your idea already exists, add a 👍 or comment instead of opening a duplicate.
+  - type: checkboxes
+    id: preflight
+    attributes:
+      label: Before submitting
+      options:
+        - label: I searched existing issues and this isn't a duplicate.
+          required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem or opportunity does this address?
+      description: What's frustrating today, or what would make Slapget more fun or useful?
+      placeholder: It's hard to see which of my properties have full storage without traveling to each one.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Describe your idea
+      description: What would you like to see? Be as specific as you can.
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Which area does this relate to?
+      options:
+        - Region catalog / Map
+        - New regions
+        - Claiming parcels / Pricing
+        - My land / Properties
+        - TP6 wallet / Economy
+        - Portals (TelePortals)
+        - Public profile / Sharing
+        - Notifications
+        - Engine — World / Rendering
+        - Engine — Survey / Deposits
+        - Engine — Resources / Gathering
+        - Engine — Storage / Building / Crafting
+        - Engine — Controls / Quality of life
+        - Help pages / Docs
+        - Something new
+        - Other / Not sure
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives you've considered
+      description: Any other approaches or workarounds you've thought about. (Optional)
+    validations:
+      required: false
+  - type: textarea
+    id: context
+    attributes:
+      label: Anything else?
+      description: Mockups, examples from other games, or extra context. (Optional)
+    validations:
+      required: false
