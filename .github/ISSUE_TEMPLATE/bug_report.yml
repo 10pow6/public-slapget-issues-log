@@ -33,6 +33,17 @@ body:
     validations:
       required: true
   - type: dropdown
+    id: environment
+    attributes:
+      label: Environment
+      description: Check your address bar. Beta addresses start with `beta.`. For the desktop engine, pick the one it signs in to.
+      options:
+        - Beta (beta.slapget.com)
+        - Live (slapget.com)
+        - Not sure
+    validations:
+      required: true
+  - type: dropdown
     id: surface
     attributes:
       label: Where did it happen?
